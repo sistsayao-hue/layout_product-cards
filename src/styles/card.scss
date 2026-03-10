@@ -1,0 +1,26 @@
+@use 'variables';
+
+.card {
+  box-sizing: border-box;
+  width: variables.$cartao-width;
+
+  padding-top: variables.$cartao-paddingtop;
+
+  &__image {
+    object-fit: cover;
+    display: block;
+
+    margin-left: 20px;
+    margin-right: 18px;
+
+    width: variables.$computador-width;
+
+    height: variables.$computador-height;
+
+    background-image: url('../images/computador.jpg');
+    background-size: cover;
+    background-position: center;
+
+    margin-bottom: 40px;
+  }
+}
