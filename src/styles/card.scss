@@ -136,8 +136,10 @@
     border-radius: 5px;
     margin-left: $paddingleftproduto;
     padding-left: $paddingleftproduto;
-    width: 166px;
-    height: 40px;
+
+   
+    width: variables.$buttonwidth;
+    height: variables.$buttonheight;
     background-color: #00acdc;
     color: #fff;
     font-family: Roboto, sans-serif;
