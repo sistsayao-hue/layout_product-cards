@@ -130,12 +130,12 @@
   &__button {
     display: block;
     justify-content: center;
-    padding-right: 17px;
+    padding-right: $paddingleftproduto;
 
     border: 0;
     border-radius: 5px;
-    margin-left: 17px;
-    padding-left: 17px;
+    margin-left: $paddingleftproduto;
+    padding-left: $paddingleftproduto;
     width: 166px;
     height: 40px;
     background-color: #00acdc;
