@@ -7,11 +7,21 @@
 
   padding-top: variables.$cartao-paddingtop;
 
+
+
+
+
+
+
+
+
+
+  
   &__image {
     object-fit: cover;
     display: block;
 
-    margin-left: 20px;
+    margin-left: variables.$paddingleftcomputador;
     margin-right: 18px;
 
     width: variables.$computador-width;
@@ -22,13 +32,13 @@
     background-size: cover;
     background-position: center;
 
-    margin-bottom: variables.;
+    margin-bottom: variables.$marginbottomcomputador;
   }
 
 
 
   &__product {
-    padding-left: 17px;
+    padding-left: variables.$paddingleftproduto;
     color: #060b35;
 
     font-family: Roboto, sans-serif;
@@ -38,11 +48,11 @@
 
     line-height: 18px;
     letter-spacing: 0%;
-    margin-bottom: variables.;
+    margin-bottom: variables.$marginbottomproduto;
   }
 
   &__code {
-    padding-left: 17px;
+    padding-left: variables.$paddingleftcodigo;
     color: #616070;
 
     font-family: Roboto, sans-serif;
@@ -52,16 +62,16 @@
 
     line-height: 14px;
     letter-spacing: 0%;
-    margin-bottom: variables.;
+    margin-bottom: variables.$marginbottomcodigo;
   }
 
   &__review {
-    padding-left: 18px;
+    padding-left: variables.$paddingleftrevisao;
     display: flex;
 
     justify-content: space-between;
 
-    margin-bottom: variables.;
+    margin-bottom: variables.$marginbottomrevisao;
   }
 
   &__revquant {
@@ -80,12 +90,12 @@
   }
 
   &__price {
-    padding-left: 17px;
+    padding-left: variables.$paddingleftpreco;
     display: flex;
 
     justify-content: space-between;
 
-    margin-bottom: variables.;
+    margin-bottom: variables.$marginbottompreco;
   }
 
   &__pricelabel {
